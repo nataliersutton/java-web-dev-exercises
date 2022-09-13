@@ -14,7 +14,7 @@ public class SearchAlice {
         System.out.println("What do you want to search the text for?");
         String searchTerm = input.nextLine().toLowerCase();
 
-        Boolean aliceSearch = aliceText.toLowerCase().contains(searchTerm);
+        boolean aliceSearch = aliceText.toLowerCase().contains(searchTerm);
         System.out.println("Does the Alice passage contain your search term? " + aliceSearch);
     }
 }
