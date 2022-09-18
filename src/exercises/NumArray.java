@@ -10,6 +10,8 @@ public class NumArray {
 
         for (int num : nums) {
             if (num % 2 != 0) {
+                int sum = 0;
+                sum += num;
                 System.out.println(num);
             }
         }
