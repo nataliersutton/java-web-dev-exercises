@@ -18,31 +18,31 @@ public class SchoolPractice {
         //Getters Here!
 
         public String getFirstName() {
-            return firstName;
+            return this.firstName;
         }
         public String getLastName() {
-            return lastName;
+            return this.lastName;
         }
         public String getSubject() {
-            return subject;
+            return this.subject;
         }
         public int getYearsTeaching() {
-            return yearsTeaching;
+            return this.yearsTeaching;
         }
 
         //Setters Here!
 
-        public void setFirstName(String aFirstName) {
-            firstName = aFirstName;
+        public void setFirstName(String firstName) {
+            this.firstName = firstName;
         }
-        public void setLastName(String aLastName) {
-            lastName = aLastName;
+        public void setLastName(String lastName) {
+            this.lastName = lastName;
         }
-        public void setSubject(String aSubject) {
-            subject = aSubject;
+        public void setSubject(String subject) {
+            this.subject = subject;
         }
-        public void setYearsTeaching(int aYearsTeaching) {
-            yearsTeaching = aYearsTeaching;
+        public void setYearsTeaching(int yearsTeaching) {
+            this.yearsTeaching = yearsTeaching;
         }
 
         //Create Constructor Here!

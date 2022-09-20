@@ -11,30 +11,30 @@ public class Student {
 
     //Getters Here!
     public String getName() {
-        return name;
+        return this.name;
     }
     public int getStudentId() {
-        return studentId;
+        return this.studentId;
     }
     public int getNumberOfCredits() {
-        return numberOfCredits;
+        return this.numberOfCredits;
     }
     public double getGpa() {
-        return gpa;
+        return this.gpa;
     }
 
     //Setters Here!
-    public void setName(String aName) {
-        name = aName;
+    public void setName(String name) {
+        this.name = name;
     }
-    public void setStudentId(int aStudentId) {
-        studentId = aStudentId;
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
     }
-    public void setNumberOfCredits(int aNumberOfCredits) {
-        numberOfCredits = aNumberOfCredits;
+    public void setNumberOfCredits(int numberOfCredits) {
+        this.numberOfCredits = numberOfCredits;
     }
-    public void setGpa(double aGpa) {
-        gpa = aGpa;
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
     }
 
     //Create Constructor Here!
